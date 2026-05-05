@@ -1,0 +1,35 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env
+.env
+*.env
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Weights
+weights/
+*.pth
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/

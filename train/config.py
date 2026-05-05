@@ -1,0 +1,24 @@
+DATASETS = [
+    "WT", "ESP", "HF", "Sniper-Cas9", "xCas", "SpCas9-NG",
+    "HypaCas9", "CRISPRON", "HT_Cas9", "HELA", "HCT116", "HL60",
+]
+
+DATA_DIR = "data"
+
+# Training
+SEED = 2024
+LR = 1e-4
+TRAIN_BATCH_SIZE = 16
+TEST_BATCH_SIZE = 64
+MAX_EPOCHS = 100
+EARLY_STOP_PATIENCE = 10
+
+# Data split
+TRAIN_RATIO = 0.765
+VAL_RATIO = 0.085
+TEST_RATIO = 0.15
+
+# DNLR (fixed)
+DNLR_ALPHA = 0.9
+DNLR_WARMUP_PATIENCE = 10
+DNLR_NOISE_PERCENTILE = 75
